@@ -36,6 +36,6 @@ output "vpc_cidr" {
   value = "${var.vpc_cidr}"
 }
 
-output "aws_route_table" {
+output "route_table_id" {
   value = "${aws_route_table.default.id}"
 }
